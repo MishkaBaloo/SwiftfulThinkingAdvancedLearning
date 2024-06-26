@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */; };
 		CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */; };
 		CE62D6052C2C572A002D544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6042C2C572A002D544F /* Assets.xcassets */; };
 		CE62D6082C2C572A002D544F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6072C2C572A002D544F /* Preview Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		CE62D5FD2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		CE62D6042C2C572A002D544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */,
 				CE62D60E2C2C5772002D544F /* ViewModifierBootcamp.swift */,
+				CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */,
 				CE62D60F2C2C5772002D544F /* ViewModifierBootcamp.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 			);
