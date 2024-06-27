@@ -12,6 +12,7 @@
 		CE62D6052C2C572A002D544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6042C2C572A002D544F /* Assets.xcassets */; };
 		CE62D6082C2C572A002D544F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6072C2C572A002D544F /* Preview Assets.xcassets */; };
 		CE62D60F2C2C5772002D544F /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D60E2C2C5772002D544F /* ViewModifierBootcamp.swift */; };
+		CE9213302C2DF2770033C7CE /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92132F2C2DF2770033C7CE /* AnyTransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CE62D6042C2C572A002D544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE62D6072C2C572A002D544F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE62D60E2C2C5772002D544F /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		CE92132F2C2DF2770033C7CE /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */,
 				CE62D60E2C2C5772002D544F /* ViewModifierBootcamp.swift */,
 				CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */,
+				CE92132F2C2DF2770033C7CE /* AnyTransitionBootcamp.swift */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */,
 				CE62D60F2C2C5772002D544F /* ViewModifierBootcamp.swift in Sources */,
+				CE9213302C2DF2770033C7CE /* AnyTransitionBootcamp.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
