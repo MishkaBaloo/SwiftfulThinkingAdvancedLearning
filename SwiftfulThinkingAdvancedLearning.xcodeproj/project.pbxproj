@@ -18,6 +18,9 @@
 		CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */; };
 		CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */; };
 		CEE0708B2C333388006157DA /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0708A2C333388006157DA /* GenericsBootcamp.swift */; };
+		CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEF0912C35EB2000058226 /* PreferenceKeyBootcamp.swift */; };
+		CEFEF0952C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEF0942C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift */; };
+		CEFEF0972C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEF0962C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		CEE0708A2C333388006157DA /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		CEFEF0912C35EB2000058226 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		CEFEF0942C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		CEFEF0962C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 				CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */,
 				CEE0708A2C333388006157DA /* GenericsBootcamp.swift */,
 				CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */,
+				CEFEF0932C35F1EB00058226 /* PreferenceKeyBootcamp */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -86,6 +93,16 @@
 				CE62D6072C2C572A002D544F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEFEF0932C35F1EB00058226 /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				CEFEF0912C35EB2000058226 /* PreferenceKeyBootcamp.swift */,
+				CEFEF0942C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift */,
+				CEFEF0962C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFEF0972C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */,
 				CE62D60F2C2C5772002D544F /* ViewModifierBootcamp.swift in Sources */,
 				CE9213302C2DF2770033C7CE /* AnyTransitionBootcamp.swift in Sources */,
+				CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 				CE9213322C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */,
+				CEFEF0952C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				CE9213342C2EB76A0033C7CE /* CustomShapesBootcamp.swift in Sources */,
 				CEE0708B2C333388006157DA /* GenericsBootcamp.swift in Sources */,
 				CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */,
