@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */; };
+		CE29521A2C3E8D6700E67C1D /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952192C3E8D6700E67C1D /* AppNavBarView.swift */; };
+		CE29521C2C3E8F7800E67C1D /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29521B2C3E8F7800E67C1D /* CustomNavBarView.swift */; };
+		CE29521E2C3E924500E67C1D /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29521D2C3E924500E67C1D /* CustomNavBarContainerView.swift */; };
+		CE2952222C3E96EC00E67C1D /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952212C3E96EC00E67C1D /* CustomNavView.swift */; };
+		CE2952242C3E97CF00E67C1D /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952232C3E97CF00E67C1D /* CustomNavLink.swift */; };
+		CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */; };
 		CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */; };
 		CE62D6052C2C572A002D544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6042C2C572A002D544F /* Assets.xcassets */; };
 		CE62D6082C2C572A002D544F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6072C2C572A002D544F /* Preview Assets.xcassets */; };
@@ -30,6 +36,12 @@
 
 /* Begin PBXFileReference section */
 		CE07FDC42C2C7825001BEA68 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		CE2952192C3E8D6700E67C1D /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		CE29521B2C3E8F7800E67C1D /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		CE29521D2C3E924500E67C1D /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		CE2952212C3E96EC00E67C1D /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		CE2952232C3E97CF00E67C1D /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		CE62D5FD2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		CE62D6042C2C572A002D544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2952162C3E8D2800E67C1D /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE2952192C3E8D6700E67C1D /* AppNavBarView.swift */,
+				CE29521B2C3E8F7800E67C1D /* CustomNavBarView.swift */,
+				CE29521D2C3E924500E67C1D /* CustomNavBarContainerView.swift */,
+				CE2952212C3E96EC00E67C1D /* CustomNavView.swift */,
+				CE2952232C3E97CF00E67C1D /* CustomNavLink.swift */,
+				CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
 		CE62D5F42C2C5729002D544F = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +117,7 @@
 				CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */,
 				CEFEF0932C35F1EB00058226 /* PreferenceKeyBootcamp */,
 				CE729ADD2C36E908000BE998 /* CustomTabBar */,
+				CE2952162C3E8D2800E67C1D /* CustomNavBar */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -199,12 +225,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE729ADF2C36E91F000BE998 /* AppTabBarView.swift in Sources */,
+				CE29521E2C3E924500E67C1D /* CustomNavBarContainerView.swift in Sources */,
 				CEFEF0972C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				CE29521A2C3E8D6700E67C1D /* AppNavBarView.swift in Sources */,
 				CE07FDC52C2C7825001BEA68 /* ButtonStyleBootcamp.swift in Sources */,
 				CE62D60F2C2C5772002D544F /* ViewModifierBootcamp.swift in Sources */,
 				CE729AE32C36EFD2000BE998 /* CustomTabBarContainerView.swift in Sources */,
+				CE29521C2C3E8F7800E67C1D /* CustomNavBarView.swift in Sources */,
+				CE2952242C3E97CF00E67C1D /* CustomNavLink.swift in Sources */,
 				CE9213302C2DF2770033C7CE /* AnyTransitionBootcamp.swift in Sources */,
 				CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */,
+				CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 				CE729AE72C36F735000BE998 /* TabBarItem.swift in Sources */,
 				CE729AE12C36EB18000BE998 /* CustomTabBarView.swift in Sources */,
@@ -215,6 +246,7 @@
 				CEE0708B2C333388006157DA /* GenericsBootcamp.swift in Sources */,
 				CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */,
 				CE729AE52C36F49E000BE998 /* TabBarItemsPreferenceKey.swift in Sources */,
+				CE2952222C3E96EC00E67C1D /* CustomNavView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
