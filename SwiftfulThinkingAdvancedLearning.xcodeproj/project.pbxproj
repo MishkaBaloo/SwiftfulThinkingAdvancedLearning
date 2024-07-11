@@ -29,6 +29,7 @@
 		CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */; };
 		CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */; };
 		CECC3D272C402D9500308504 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC3D262C402D9500308504 /* UIViewRepresentableBootcamp.swift */; };
+		CECC3D292C40469200308504 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC3D282C40469200308504 /* UIViewControllerRepresentableBootcamp.swift */; };
 		CEE0708B2C333388006157DA /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0708A2C333388006157DA /* GenericsBootcamp.swift */; };
 		CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEF0912C35EB2000058226 /* PreferenceKeyBootcamp.swift */; };
 		CEFEF0952C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFEF0942C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift */; };
@@ -59,6 +60,7 @@
 		CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		CECC3D262C402D9500308504 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		CECC3D282C40469200308504 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		CEE0708A2C333388006157DA /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		CEFEF0912C35EB2000058226 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		CEFEF0942C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				CE729ADD2C36E908000BE998 /* CustomTabBar */,
 				CE2952162C3E8D2800E67C1D /* CustomNavBar */,
 				CECC3D262C402D9500308504 /* UIViewRepresentableBootcamp.swift */,
+				CECC3D282C40469200308504 /* UIViewControllerRepresentableBootcamp.swift */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -241,6 +244,7 @@
 				CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */,
 				CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
+				CECC3D292C40469200308504 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				CE729AE72C36F735000BE998 /* TabBarItem.swift in Sources */,
 				CE729AE12C36EB18000BE998 /* CustomTabBarView.swift in Sources */,
 				CE9213322C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift in Sources */,
