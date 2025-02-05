@@ -31,6 +31,8 @@
 		CE9213322C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9213312C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift */; };
 		CE9213342C2EB76A0033C7CE /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9213332C2EB76A0033C7CE /* CustomShapesBootcamp.swift */; };
 		CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */; };
+		CEA82D532D53F73900772B73 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA82D522D53F73900772B73 /* NewMockDataService.swift */; };
+		CEA82D552D53F91100772B73 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA82D542D53F91100772B73 /* NewMockDataService_Tests.swift */; };
 		CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */; };
 		CECC3D272C402D9500308504 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC3D262C402D9500308504 /* UIViewRepresentableBootcamp.swift */; };
 		CECC3D292C40469200308504 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC3D282C40469200308504 /* UIViewControllerRepresentableBootcamp.swift */; };
@@ -79,6 +81,8 @@
 		CE9213312C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		CE9213332C2EB76A0033C7CE /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		CEA82D522D53F73900772B73 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		CEA82D542D53F91100772B73 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		CEC314612C2F410B000866FB /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		CECC3D262C402D9500308504 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		CECC3D282C40469200308504 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
@@ -177,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6614102C451C3E00179D7B /* UnitTestingBootcampViewModel.swift */,
+				CEA82D522D53F73900772B73 /* NewMockDataService.swift */,
 				CE66140E2C4518F100179D7B /* UnitTestingBootcampView.swift */,
 			);
 			path = UnitTestingBootcamp;
@@ -187,6 +192,7 @@
 			children = (
 				CE6614182C451D6400179D7B /* SwiftfulThinkingAdvancedLearning_Tests.swift */,
 				CE66141F2C451E1C00179D7B /* UnitTestingBootcampViewModel_Tests.swift */,
+				CEA82D542D53F91100772B73 /* NewMockDataService_Tests.swift */,
 			);
 			path = SwiftfulThinkingAdvancedLearning_Tests;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */,
 				CE729AE52C36F49E000BE998 /* TabBarItemsPreferenceKey.swift in Sources */,
 				CE2952222C3E96EC00E67C1D /* CustomNavView.swift in Sources */,
+				CEA82D532D53F73900772B73 /* NewMockDataService.swift in Sources */,
 				CE6614112C451C3E00179D7B /* UnitTestingBootcampViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +358,7 @@
 			files = (
 				CE6614202C451E1C00179D7B /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
 				CE6614192C451D6400179D7B /* SwiftfulThinkingAdvancedLearning_Tests.swift in Sources */,
+				CEA82D552D53F91100772B73 /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
