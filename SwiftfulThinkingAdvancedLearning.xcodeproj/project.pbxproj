@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		CE2952222C3E96EC00E67C1D /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952212C3E96EC00E67C1D /* CustomNavView.swift */; };
 		CE2952242C3E97CF00E67C1D /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952232C3E97CF00E67C1D /* CustomNavLink.swift */; };
 		CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */; };
+		CE379A972D5548F90075791B /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE379A962D5548F90075791B /* UITestingBootcampView.swift */; };
 		CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */; };
 		CE62D6052C2C572A002D544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6042C2C572A002D544F /* Assets.xcassets */; };
 		CE62D6082C2C572A002D544F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6072C2C572A002D544F /* Preview Assets.xcassets */; };
@@ -45,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE379AA22D554FF10075791B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE62D5F52C2C5729002D544F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE62D5FC2C2C5729002D544F;
+			remoteInfo = SwiftfulThinkingAdvancedLearning;
+		};
 		CE66141A2C451D6400179D7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE62D5F52C2C5729002D544F /* Project object */;
@@ -62,6 +70,8 @@
 		CE2952212C3E96EC00E67C1D /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
 		CE2952232C3E97CF00E67C1D /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
+		CE379A962D5548F90075791B /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
+		CE379A9C2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62D5FD2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		CE62D6042C2C572A002D544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,7 +104,18 @@
 		CEFEF0962C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE379A9D2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftfulThinkingAdvancedLearning_UITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		CE379A992D554FF10075791B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE62D5FA2C2C5729002D544F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +151,7 @@
 			children = (
 				CE62D5FF2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning */,
 				CE6614172C451D6400179D7B /* SwiftfulThinkingAdvancedLearning_Tests */,
+				CE379A9D2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests */,
 				CE62D5FE2C2C5729002D544F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,6 +161,7 @@
 			children = (
 				CE62D5FD2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning.app */,
 				CE6614162C451D6400179D7B /* SwiftfulThinkingAdvancedLearning_Tests.xctest */,
+				CE379A9C2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +186,7 @@
 				CEF3FDEC2C423E4700E2A006 /* ProtocolsBootcamp.swift */,
 				CEF91C112C42D1E00045222F /* DependencyInjectionBootcamp.swift */,
 				CE66140D2C4518D300179D7B /* UnitTestingBootcamp */,
+				CE379A962D5548F90075791B /* UITestingBootcampView.swift */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -222,6 +246,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE379A9B2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE379AA42D554FF10075791B /* Build configuration list for PBXNativeTarget "SwiftfulThinkingAdvancedLearning_UITests" */;
+			buildPhases = (
+				CE379A982D554FF10075791B /* Sources */,
+				CE379A992D554FF10075791B /* Frameworks */,
+				CE379A9A2D554FF10075791B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE379AA32D554FF10075791B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE379A9D2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests */,
+			);
+			name = SwiftfulThinkingAdvancedLearning_UITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftfulThinkingAdvancedLearning_UITests;
+			productReference = CE379A9C2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CE62D5FC2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE62D60B2C2C572A002D544F /* Build configuration list for PBXNativeTarget "SwiftfulThinkingAdvancedLearning" */;
@@ -264,9 +311,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					CE379A9B2D554FF10075791B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CE62D5FC2C2C5729002D544F;
+					};
 					CE62D5FC2C2C5729002D544F = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -291,11 +342,19 @@
 			targets = (
 				CE62D5FC2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning */,
 				CE6614152C451D6400179D7B /* SwiftfulThinkingAdvancedLearning_Tests */,
+				CE379A9B2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE379A9A2D554FF10075791B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE62D5FB2C2C5729002D544F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,12 +374,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE379A982D554FF10075791B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE62D5F92C2C5729002D544F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE729ADF2C36E91F000BE998 /* AppTabBarView.swift in Sources */,
 				CE29521E2C3E924500E67C1D /* CustomNavBarContainerView.swift in Sources */,
+				CE379A972D5548F90075791B /* UITestingBootcampView.swift in Sources */,
 				CE66140F2C4518F100179D7B /* UnitTestingBootcampView.swift in Sources */,
 				CEFEF0972C35F59800058226 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				CEF91C122C42D1E00045222F /* DependencyInjectionBootcamp.swift in Sources */,
@@ -365,6 +432,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE379AA32D554FF10075791B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE62D5FC2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning */;
+			targetProxy = CE379AA22D554FF10075791B /* PBXContainerItemProxy */;
+		};
 		CE66141B2C451D6400179D7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE62D5FC2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning */;
@@ -373,6 +445,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CE379AA52D554FF10075791B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6D7P45J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michael.SwiftfulThinkingAdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftfulThinkingAdvancedLearning;
+			};
+			name = Debug;
+		};
+		CE379AA62D554FF10075791B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6D7P45J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michael.SwiftfulThinkingAdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftfulThinkingAdvancedLearning;
+			};
+			name = Release;
+		};
 		CE62D6092C2C572A002D544F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -482,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -508,6 +616,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +646,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,6 +699,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE379AA42D554FF10075791B /* Build configuration list for PBXNativeTarget "SwiftfulThinkingAdvancedLearning_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE379AA52D554FF10075791B /* Debug */,
+				CE379AA62D554FF10075791B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE62D5F82C2C5729002D544F /* Build configuration list for PBXProject "SwiftfulThinkingAdvancedLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
