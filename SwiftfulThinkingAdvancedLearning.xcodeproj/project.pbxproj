@@ -16,6 +16,7 @@
 		CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2952252C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift */; };
 		CE379A972D5548F90075791B /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE379A962D5548F90075791B /* UITestingBootcampView.swift */; };
 		CE5427FB2D5CECF7008EA387 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5427FA2D5CECF7008EA387 /* FuturesBootcamp.swift */; };
+		CE5427FE2D5D00BB008EA387 /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5427FD2D5D00BB008EA387 /* CloudKitUserBootcamp.swift */; };
 		CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */; };
 		CE62D6052C2C572A002D544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6042C2C572A002D544F /* Assets.xcassets */; };
 		CE62D6082C2C572A002D544F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62D6072C2C572A002D544F /* Preview Assets.xcassets */; };
@@ -74,6 +75,7 @@
 		CE379A962D5548F90075791B /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
 		CE379A9C2D554FF10075791B /* SwiftfulThinkingAdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5427FA2D5CECF7008EA387 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
+		CE5427FD2D5D00BB008EA387 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 		CE62D5FD2C2C5729002D544F /* SwiftfulThinkingAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62D6002C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		CE62D6042C2C572A002D544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
+		CE5427FC2D5D009A008EA387 /* CloudKitBootcamps */ = {
+			isa = PBXGroup;
+			children = (
+				CE5427FD2D5D00BB008EA387 /* CloudKitUserBootcamp.swift */,
+			);
+			path = CloudKitBootcamps;
+			sourceTree = "<group>";
+		};
 		CE62D5F42C2C5729002D544F = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +200,7 @@
 				CEF91C112C42D1E00045222F /* DependencyInjectionBootcamp.swift */,
 				CE66140D2C4518D300179D7B /* UnitTestingBootcamp */,
 				CE379A962D5548F90075791B /* UITestingBootcampView.swift */,
+				CE5427FC2D5D009A008EA387 /* CloudKitBootcamps */,
 				CE62D6042C2C572A002D544F /* Assets.xcassets */,
 				CE62D6062C2C572A002D544F /* Preview Content */,
 			);
@@ -405,6 +416,7 @@
 				CECC3D272C402D9500308504 /* UIViewRepresentableBootcamp.swift in Sources */,
 				CEFEF0922C35EB2000058226 /* PreferenceKeyBootcamp.swift in Sources */,
 				CE2952262C3E9D2B00E67C1D /* CustomNavBarPreferenceKeys.swift in Sources */,
+				CE5427FE2D5D00BB008EA387 /* CloudKitUserBootcamp.swift in Sources */,
 				CE62D6012C2C5729002D544F /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
 				CECC3D292C40469200308504 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				CE5427FB2D5CECF7008EA387 /* FuturesBootcamp.swift in Sources */,
