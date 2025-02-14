@@ -64,9 +64,8 @@ class CloudKitCrudBootcampViewModel: ObservableObject {
     
     func fetchItems() {
         
-//        let predicate = NSPredicate(value: true)
-        
-        let predicate = NSPredicate(format: "name = %@", argumentArray: ["Coconut"])
+        let predicate = NSPredicate(value: true)
+//        let predicate = NSPredicate(format: "name = %@", argumentArray: ["Coconut"])
         let query = CKQuery(recordType: "Fruits", predicate: predicate)
         query.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
         let queryOperation = CKQueryOperation(query: query)

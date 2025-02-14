@@ -34,6 +34,7 @@
 		CE9213322C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9213312C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift */; };
 		CE9213342C2EB76A0033C7CE /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9213332C2EB76A0033C7CE /* CustomShapesBootcamp.swift */; };
 		CEA484012D5F82E60031E612 /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA484002D5F82E60031E612 /* CloudKitCrudBootcamp.swift */; };
+		CEA484032D5FC7C00031E612 /* CloudKitPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA484022D5FC7C00031E612 /* CloudKitPushNotificationsBootcamp.swift */; };
 		CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */; };
 		CEA82D532D53F73900772B73 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA82D522D53F73900772B73 /* NewMockDataService.swift */; };
 		CEA82D552D53F91100772B73 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA82D542D53F91100772B73 /* NewMockDataService_Tests.swift */; };
@@ -96,6 +97,7 @@
 		CE9213312C2EAE290033C7CE /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		CE9213332C2EB76A0033C7CE /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		CEA484002D5F82E60031E612 /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
+		CEA484022D5FC7C00031E612 /* CloudKitPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CEA63CED2C34A210009EE7E7 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		CEA82D522D53F73900772B73 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		CEA82D542D53F91100772B73 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				CE5427FD2D5D00BB008EA387 /* CloudKitUserBootcamp.swift */,
+				CEA484022D5FC7C00031E612 /* CloudKitPushNotificationsBootcamp.swift */,
 				CEA484002D5F82E60031E612 /* CloudKitCrudBootcamp.swift */,
 			);
 			path = CloudKitBootcamps;
@@ -430,6 +433,7 @@
 				CEA63CEE2C34A210009EE7E7 /* ViewBuilderBootcamp.swift in Sources */,
 				CEFEF0952C35F21D00058226 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				CE9213342C2EB76A0033C7CE /* CustomShapesBootcamp.swift in Sources */,
+				CEA484032D5FC7C00031E612 /* CloudKitPushNotificationsBootcamp.swift in Sources */,
 				CEE0708B2C333388006157DA /* GenericsBootcamp.swift in Sources */,
 				CEC314622C2F410B000866FB /* CustomCurvesBootcamp.swift in Sources */,
 				CE729AE52C36F49E000BE998 /* TabBarItemsPreferenceKey.swift in Sources */,
