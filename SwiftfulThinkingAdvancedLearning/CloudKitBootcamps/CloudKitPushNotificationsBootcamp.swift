@@ -8,6 +8,10 @@
 import SwiftUI
 import CloudKit
 
+// protocols
+// generics
+// futures
+
 final class CloudKitPushNotifciationBootcampViewModel: ObservableObject {
     
     
